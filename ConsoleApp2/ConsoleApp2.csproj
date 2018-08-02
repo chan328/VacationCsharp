@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D230A9D0-781C-4ED8-BEED-05E041AA87D7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2.cs" />
+    <None Include="1.cs" />
+    <None Include="3.cs" />
+    <None Include="4.cs" />
+    <None Include="5.cs" />
+    <None Include="6.cs" />
+    <None Include="7.cs" />
+    <None Include="8.cs" />
+    <None Include="9.cs" />
+    <None Include="10.cs" />
+    <None Include="11.cs" />
+    <None Include="12.cs" />
+    <None Include="13.cs" />
+    <None Include="14.cs" />
+    <None Include="15.cs" />
+    <None Include="16.cs" />
+    <None Include="17.cs" />
+    <None Include="18.cs" />
+    <None Include="19.cs" />
+    <None Include="20.cs" />
+    <None Include="21.cs" />
+    <None Include="22.cs" />
+    <None Include="23.cs" />
+    <None Include="24.cs" />
+    <None Include="25.cs" />
+    <None Include="26.cs" />
+    <None Include="27.cs" />
+    <None Include="28.cs" />
+    <None Include="29.cs" />
+    <None Include="30.cs" />
+    <None Include="32.cs" />
+    <None Include="33.cs" />
+    <None Include="34.cs" />
+    <None Include="35.cs" />
+    <None Include="Class1.cs" />
+    <None Include="Class2.cs" />
+    <None Include="Class3.cs" />
+    <None Include="Class4.cs" />
+    <None Include="Class5.cs" />
+    <None Include="Class6.cs" />
+    <None Include="Class7.cs" />
+    <None Include="Class8.cs" />
+    <None Include="Class9.cs" />
+    <None Include="Class10.cs" />
+    <None Include="Class11.cs" />
+    <None Include="Class12.cs" />
+    <None Include="Class13.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
